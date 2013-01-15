@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispToText.Chassis", "LispToText.Chassis\LispToText.Chassis.csproj", "{0E5C1302-0614-48F4-A07B-85A7572D63EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispToText.Chassis.Test", "LispToText.Chassis.Test\LispToText.Chassis.Test.csproj", "{E6922D83-E479-4173-B65D-BEBF52510863}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4421DD11-EEE5-4FE4-BA9C-7F71FEE763A3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5C1302-0614-48F4-A07B-85A7572D63EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5C1302-0614-48F4-A07B-85A7572D63EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5C1302-0614-48F4-A07B-85A7572D63EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5C1302-0614-48F4-A07B-85A7572D63EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6922D83-E479-4173-B65D-BEBF52510863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6922D83-E479-4173-B65D-BEBF52510863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6922D83-E479-4173-B65D-BEBF52510863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6922D83-E479-4173-B65D-BEBF52510863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
